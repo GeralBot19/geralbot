@@ -4,11 +4,11 @@ global.dfail('admin', m, conn)
 throw false
 }
 let pesan = args.join` `
-let oi = `👨🏻‍💻💙➢ 𝐁𝐨𝐭 𝐁𝐨𝐭𝐜𝐢𝐭𝐨 𝐩𝐚𝐫𝐚 𝐮𝐬𝐭𝐞𝐝𝐞𝐬 𝐁𝐞𝐛𝐞𝐬: * ${pesan}`
-let teks = `Creador Wa.me/51988802645 SI QUIERES BOT COMUNICAME 👨🏻‍💻💙 𝐑𝐞𝐯𝐢𝐯𝐚𝐧 𝐁𝐨𝐭𝐬-𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 💙👨🏻‍💻 *\n\n❄️ ${oi}\n\n❄️ * 👨🏻‍💻💙➢𝐄𝐭𝐢𝐪𝐮𝐞𝐭𝐚𝐬: *\n`
+let oi = `𝐞𝐬𝐩𝐨𝐫𝐭𝟒𝐤.𝐠𝐠 * ${pesan}`
+let teks = `🦋𝑫𝒆𝒔𝒑𝒊𝒆𝒓𝒕𝒆𝒏 𝑬𝒔𝒄𝒍𝒂𝒗@𝒔 🦋 *\n\n❄️ ${oi}\n\n❄️ * 👨🏻‍💻💙➢𝐄𝐭𝐢𝐪𝐮𝐞𝐭𝐚𝐬: *\n`
 for (let mem of participants) {
-teks += `👨🏻‍💻💙≽ @${mem.id.split('@')[0]}\n`}
-teks += `𝐆𝐞𝐫𝐚𝐥 𝐁𝐨𝐭 👨🏻‍💻💙 `
+teks += `🧸🌻≽ @${mem.id.split('@')[0]}\n`}
+teks += `𝐄-𝐬𝐩𝐨𝐫𝐭 𝟒𝐤`
 conn.sendMessage(m.chat, { text: teks, mentions: participants.map(a => a.id) }, )
 }
 handler.help = ['tagall <mesaje>','invocar <mesaje>']
